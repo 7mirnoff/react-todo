@@ -1,11 +1,14 @@
 import React from 'react'
 import classes from './todo-list.module.scss'
 
+import TodoItem from '../todo-item/todo-item'
+
 const TodoList = () => {
   return (
-    <div className={classes.todoList}>
-
-    </div>
+    <ul className={classes.todoList}>
+      <TodoItem />
+      <TodoItem />
+    </ul>
   )
 }
 
