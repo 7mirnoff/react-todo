@@ -3,7 +3,7 @@ import classes from './todo-list.module.scss'
 
 const TodoList = () => {
   return (
-    <div className={classes.todoList}> 
+    <div className={classes.todoList}>
 
     </div>
   )
