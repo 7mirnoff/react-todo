@@ -1,9 +1,9 @@
 import React from 'react'
-// import classes from 'todo-list.module.scss'
+import classes from './todo-list.module.scss'
 
 const TodoList = () => {
   return (
-    <div className='3434'> 34 </div>
+    <div className={classes.todoList}> 34 </div>
   )
 }
 
