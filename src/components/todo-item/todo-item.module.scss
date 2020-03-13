@@ -1,1 +1,32 @@
 
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.todoItem__done {
+  text-decoration: line-through;
+}
+
+.todoItem__checkbox {
+  margin-right: 1rem;
+}
+
+.todoItem__close {
+  padding: 0;
+  margin: 0;
+  width: 1rem;
+  height: 1rem;
+  background-color: red;
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
